@@ -1,0 +1,146 @@
+ <div class="col-lg-7 col-md-7 col-sm-12 col-12">
+                    <h1>Virtual CFO Services</h1>
+                    <p>Virtual CFO Manages - Accounting, Bookkeeping, Finance, Legal
+                        Compliance, MIS Reporting , Advisory and Payroll, Operations And
+                        Optimized Financial Performance. Business CFO Services Help
+                        Businesses Optimize And Financial Management To Enhance Revenue
+                        Growth. Virtual CFO Services for Startup, MSME, Large Enterprises to
+                        Build finance processes.</p>
+                </div>
+
+
+                <!-- <div class="container-2"> -->
+                <!-- <div class="text">
+                            <h1>Clientele Round The Globe</h1>
+                            <p>League of our esteemed clients who have always shown faith in our capabilities, propelling us to do better.</p>
+                          </div>
+                      
+                          <marquee direction="left" loop="">
+                            <div class="client-images">
+                              <img src="./images/client1.webp">
+                              <img src="./images/client2.webp">
+                              <img src="./images/client3.webp">
+                              <img src="./images/client4.jpg">
+                              <img src="./images/client5.jpg">
+                              <img src="./images/client6.jpg">
+                              <img src="./images/client7.jpg">
+                              <img src="./images/client8.jpg">
+                              <img src="./images/client9.jpg">
+                              <img src="./images/client10.jpg">
+                              <img src="./images/client-11.jpg">
+                              <img src="./images/client12.jpg">
+                              <img src="./images/client13.jpg">
+                              <img src="./images/client14.webp">
+                              <img src="./images/client15.jpg">
+                              <img src="./images/client16.webp">
+                              <img src="./images/client17.webp">
+                              <img src="./images/client18.jpg">
+                              <img src="./images/client19.jpg">
+                              <img src="./images/client20.jpg">
+                              <img src="./images/client21.jpg">
+                              <img src="./images/client22.jpg">
+                              <img src="./images/client23.jpg">
+                              <img src="./images/client24.jpg">
+                            </div>
+                          </marquee>
+                    </div> -->
+
+
+
+
+
+
+
+                    
+                <div class="form-body" id="form">
+                    <h2>Ask Our Experts !</h2>
+                    <div class="form">
+                        <form class="row no-gutter">
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                                <label for="inputEmail4" class="form-label">Name <span
+                                        class="text-danger">*</span></label>
+                                <input type="text" class="form-control" id="inputEmail4" placeholder="Name..">
+                            </div>
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                                <label for="inputEmail4" class="form-label">Email <span
+                                        class="text-danger">*</span></label>
+                                <input type="email" class="form-control" id="inputEmail4" placeholder="Email..">
+                            </div>
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                                <label for="inputEmail4" class="form-label">Mobile <span
+                                        class="text-danger">*</span></label>
+                                <input type="number" class="form-control" id="inputEmail4" placeholder="Mobile..">
+                            </div>
+
+                            <div class="col-12">
+                                <button type="submit" class="btn btn-success btn-sm w-100 my-3"
+                                    class="btn">Register</button>
+                            </div>
+                        </form>
+
+                        <div class="form">
+                        <form class="row no-gutter">
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                                <label for="inputEmail4" class="form-label">Name <span
+                                        class="text-danger">*</span></label>
+                                <input type="text" class="form-control" id="inputEmail4" placeholder="Name..">
+                            </div>
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                                <label for="inputEmail4" class="form-label">Email <span
+                                        class="text-danger">*</span></label>
+                                <input type="email" class="form-control" id="inputEmail4" placeholder="Email..">
+                            </div>
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                                <label for="inputEmail4" class="form-label">Mobile <span
+                                        class="text-danger">*</span></label>
+                                <input type="number" class="form-control" id="inputEmail4" placeholder="Mobile..">
+                            </div>
+
+                            <div class="col-12">
+                                <button type="submit" class="btn btn-success btn-sm w-100 my-3"
+                                    class="btn">Register</button>
+                            </div>
+                        </form>
+
+                    </div>
+                </div>
+
+
+<div class="card">
+  <h5 class="card-header">Featured</h5>
+  <div class="card-body">
+    <h5 class="card-title">Special title treatment</h5>
+    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+.glass{
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+
+<!Doctype html>
+<html>
+
+<head>
+<title>VCFO</tilte>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body class = "gomes-vcfo-body">
+<section class = "">
+</body>
+
+
+</html>
