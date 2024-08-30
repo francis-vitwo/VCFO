@@ -4,6 +4,11 @@
     font-family: 'Poppins', sans-serif;
 }
 
+.form-control:focus {
+    box-shadow: none;
+    border-color: #dddddd;
+}
+
 :root {
     --bgcolor: #003060;
     --bgcolor2: #0160c0;
@@ -20,6 +25,7 @@
 
 *p {
     font-size: 0.8rem;
+    text-align: left;
 }
 
 *ul {
@@ -55,7 +61,17 @@ input[type=number] {
 
 html {
     overflow-x: hidden;
+}
+
+body {
     font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    line-height: 1.7;
+}
+
+header.gomes-header nav .navbar-nav a {
+    color: #fff;
+    font-size: 0.78rem;
 }
 
 .gomes-header .navbar-brand img {
@@ -63,6 +79,10 @@ html {
     height: 50px;
     object-fit: cover;
     padding: 10px;
+}
+
+section.gomes-section {
+    padding: 60px 20px;
 }
 
 .section-1 {
@@ -82,42 +102,87 @@ p {
     padding: 50px;
 }
 
-.section-1 .info-text h1 {
-    margin-left: 50px;
+section.gomes-section.section-1 h1 {
+    max-width: 80%;
+    font-size: 3rem;
+    font-weight: 300;
+    line-height: 1.6;
+}
+
+
+.hightlight-text {
+    color: #6def72;
+    font-weight: 600;
+    filter: drop-shadow(4px 1px 23px #6def72);
 }
 
 .section-1 .info-text p {
-    text-align: left;
-    font-size: 15px;
-    margin: 18px 40px 10px 50px;
+    font-size: 0.9rem;
+    line-height: 1.8;
+    font-weight: 200;
 }
 
-.section-1 .vcfo-button {
-    margin: 50px;
+section.gomes-section.section-1 .vcfo-button {
+    margin: 50px 0;
+    display: flex;
+    align-items: center;
+    gap: 25px;
 }
 
-.section-1 .vcfo-button .vcfo-button-1 {
+section.gomes-section button {
+    font-size: 0.85rem;
+    padding: 14px 33px;
+    color: #fff;
+    border-color: transparent;
+    border-radius: 35px;
+    transition: all 0.1s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+section.gomes-section button ion-icon {
+    font-size: 1.125rem;
+}
+
+section.gomes-section button.get-consultant-btn {
+    background: #199d1e;
+    border-color: #199d1e;
+}
+
+section.gomes-section button.get-consultant-btn:hover {
+    background: #1eb623;
+    border-color: #1eb623;
+    filter: drop-shadow(4px 1px 15px #1eb623);
+}
+
+.vcfo-hero-section .row {
+    align-items: center;
+}
+
+.vcfo-hero-section .vcfo-button .vcfo-button-1 {
     border-radius: 25px;
 }
 
-.section-1 .vcfo-button .vcfo-button-2 {
+.vcfo-hero-section .vcfo-button .vcfo-button-2 {
     border-radius: 25px;
     margin-left: 25px;
 }
 
-.section-1 .client-text p {
-    text-align: center;
-    font-size: 11px;
+.vcfo-hero-section .client-text p {
+    font-size: 0.8rem;
+    font-weight: 200;
 }
 
-.section-1 .client-images img {
+.vcfo-hero-section .client-images img {
     object-fit: contain;
     width: 100px;
     height: 40px;
     margin-left: 10px;
 }
 
-.section-1 .vcfo-container-2 .vcfo-card {
+.vcfo-hero-section .vcfo-container-2 .vcfo-experience-card {
     background: #fff;
     color: #000;
     padding: 7px 5px;
@@ -127,29 +192,37 @@ p {
     margin: 50px;
 }
 
-.section-1 .vcfo-container-2 .vcfo-card-heading {
+.vcfo-hero-section .vcfo-container-2 .vcfo-experience-card-heading {
     background-color: var(--bgcolor);
     border-radius: 10px;
     color: var(--text-color2);
     height: 50px;
-    text-align: center;
     padding-top: 15px;
+    font-size: 1rem;
+    font-weight: 600;
 }
 
-.section-1 .vcfo-container-2 .vcfo-form label {
+.vcfo-hero-section .vcfo-container-2 .vcfo-form label {
     margin-top: 10px;
+    font-size: 0.8rem;
 }
 
-.section-1 .vcfo-container-2 .vcfo-card-bottom-text {
+.vcfo-hero-section .vcfo-container-2 .vcfo-form input::placeholder {
+    font-size: 0.8rem;
+}
+
+.vcfo-hero-section .vcfo-container-2 .vcfo-experience-card-bottom-text {
     line-height: 0.5;
+    margin-top: 15px;
 }
 
-.section-1 .vcfo-container-2 h2,
-p {
+.vcfo-hero-section .vcfo-container-2 .vcfo-experience-card-bottom-text p {
     text-align: center;
+    font-size: 0.8rem;
+    font-weight: 600;
 }
 
-.section-2 {
+.vcfo-experience-section {
     padding: 20px;
     color: var(--text-color2) !important;
     background: url(./images/shadow-img1.webp);
@@ -158,56 +231,80 @@ p {
     background-size: cover;
 }
 
-.section-2 .info-text-2 {
+.vcfo-experience-section .info-text {
     padding: 50px;
 }
 
-.section-2 .info-text-2 h1 {
+.vcfo-experience-section .info-text h1 {
     text-align: center;
+    font-size: 2.3rem;
 }
 
-.section-2 .info-text-2 p {
-    margin-top: 20px;
+.vcfo-experience-section .info-text p {
+    margin: 30px 0;
+    text-align: center;
+    font-size: 0.9rem;
+    line-height: 1.8;
+    font-weight: 200;
 }
 
-.section-2 .info-text-2 strong {
+.vcfo-experience-section .info-text-2 strong {
     font-size: 25px;
     color: var(--text-color3);
 }
 
-.section-2 .vcfo-card {
+.vcfo-experience-section .vcfo-experience-card {
     background: var(--text-color2);
     color: var(--text-color3);
     border-radius: 16px;
     padding: 10px;
     min-width: 100%;
+    margin: 0;
+    height: 425px;
+    min-height: 100%;
 }
 
-.section-2 .vcfo-card .icon-img {
+.vcfo-experience-section .vcfo-experience-card .icon-img {
     display: flex;
     align-items: center;
-    background-color: var(--bgcolor);
-    padding: 10px;
-    border-radius: 6px;
+    justify-content: center;
     color: var(--bgcolor-lighter);
 }
 
-.section-2 .vcfo-card .icon-img img {
-    width: 50px;
-    height: 50px;
+.vcfo-experience-section .vcfo-experience-card .icon-img img {
+    width: 100%;
+    height: 100%;
+    padding-top: 10px;
     object-fit: contain;
+    border-radius: 20px;
 }
 
-.section-2 .vcfo-card .icon-img-text {
-    margin-left: 10px;
+.vcfo-experience-section .vcfo-experience-card .card-body h4 {
+    font-size: 17px;
+    font-weight: 600;
 }
+
+.vcfo-experience-section .vcfo-experience-card .card-body p {
+    line-height: 1.5;
+    font-size: 0.8rem;
+}
+
+.vcfo-experience-section .vcfo-experience-card .experience-button {
+    margin-bottom: 20PX;
+}
+
 
 .section-3 {
     padding: 50px;
-    background-image: linear-gradient(81deg, var(--bgcolor), var(--bgcolor-lighter), var(--bgcolor-lighter), var(--bgcolor));
+    background-image: linear-gradient(125deg, var(--bgcolor), var(--bgcolor-lighter), var(--bgcolor-lighter), var(--bgcolor));
 }
 
-.section-3 .founder-img {
+.section-3 .vissionaries-text h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* .section-3 .founder-img {
     background: var(--text-color2);
     border-radius: 20px;
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
@@ -220,7 +317,7 @@ p {
     object-fit: cover;
     width: 80%;
     padding: 20px;
-}
+} */
 
 .section-3 .founder-text,
 h3,
@@ -255,7 +352,7 @@ p {
 
 .section-4 {
     padding: 50px;
-    background-image: linear-gradient(101deg, var(--bgcolor), var(--bgcolor-lighter), var(--bgcolor-lighter), var(--bgcolor));
+    background-image: linear-gradient(43deg, var(--bgcolor), var(--bgcolor-lighter), var(--bgcolor-lighter), var(--bgcolor));
 }
 
 .section-4 .vcfo-container {
@@ -263,9 +360,7 @@ p {
 }
 
 .section-4 .vcfo-container h1,
-p {
-    text-align: center;
-}
+p {}
 
 .section-4 .ratings {
     color: #FFD700;
@@ -277,7 +372,7 @@ p {
     margin-right: 10px;
 }
 
-.section-4 .vcfo-card {
+.section-4 .vcfo-experience-card {
     padding: 0px 10px;
     width: auto;
     height: 100%;
@@ -291,19 +386,19 @@ p {
     justify-content: space-evenly;
 }
 
-.section-4 .vcfo-card-text {
+.section-4 .vcfo-experience-card-text {
     padding: 10px;
     text-align: left;
     font-size: 15px;
 }
 
-/* .section-4 .vcfo-card-image {
+/* .section-4 .vcfo-experience-card-image {
     display: flex;
     object-fit: cover;
     padding: 20px;
 }
 
-.section-4 .vcfo-card-image img {
+.section-4 .vcfo-experience-card-image img {
     width: 100px;
     height: 100px;
     object-fit: cover;
@@ -316,99 +411,237 @@ p {
     padding: 20px;
 }
 
+.section-5 {
+    background-image: linear-gradient(226deg, var(--bgcolor), var(--bgcolor-lighter), var(--bgcolor-lighter), var(--bgcolor));
+    padding: 0px;
+}
+
+.section-5 .virtual-text {
+    padding: 40px;
+}
+
+.section-5 .virtual-text h1 {
+    margin-bottom: 30px;
+}
+
+.section-5 .virtual-text p {
+    font-size: 0.9rem;
+    line-height: 1.7;
+}
+
+.section-5 .virtual-ul {
+    padding: 30px;
+}
+
+.section-5 .virtual-text .virtual-ul h4 {
+    margin-bottom: 20px;
+}
+
+.section-5 .virtual-text .virtual-ul li i {
+    margin-bottom: 5px;
+    line-height: 1.7;
+}
+
 .gomes-footer {
     position: relative;
     width: 100%;
-    background-image: linear-gradient(68deg, var(--bgcolor), var(--bgcolor-lighter), var(--bgcolor-lighter), var(--bgcolor));
+    background-image: linear-gradient(132deg, var(--bgcolor), var(--bgcolor-lighter), var(--bgcolor-lighter), var(--bgcolor));
     min-height: 100px;
-    padding: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    padding: 12em 0;
+    overflow: hidden;
 }
 
-.gomes-footer .vcfo-logo {
-    position: relative;
-    display: flex;
-    justify-content: left;
-    align-items: left;
-    margin-left: 20px;
-    margin-top: 20px;
+.gomes-footer .vcfo-container {
+    padding: 4em;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
 }
 
-.gomes-footer .vcfo-footer-text {
-    position: absolute;
-    display: flex;
-    margin-top: 75px;
+.gomes-footer .vcfo-container ul {
+    list-style-type: none;
 }
 
-.gomes-footer .vcfo-logo img {
-    width: 65%;
-}
-
-.gomes-footer .social-icons li,
-.gomes-footer .vcfo-menu li {
-    list-style: none;
-}
-
-.gomes-footer .social-icons {
-    display: flex;
-    justify-content: left;
-    /* align-items: flex-end; */
-    margin-top: 85px;
-
-}
-
-.gomes-footer .social-icons li a {
-    font-size: 25px;
-    color: var(--text-color3);
-    margin: 0 10px;
-    display: inline-block;
-    transition: 0.75s;
-}
-
-.gomes-footer .social-icons li a:hover {
-    transform: translateY(-5px);
-    color: var(--hover);
-}
-
-/* .gomes-footer .menu {
-    width: 100%;
-} */
-
-.gomes-footer .vcfo-menu{
-    display: flex;
-}
-
-.gomes-footer .vcfo-menu li a {
-    font-size: 15px;
-    color: var(--text-color3);
-    margin: 0 50px;
-    display: inline-block;
-    text-decoration: none;
-    opacity: 0.75;
-}
-
-.gomes-footer .vcfo-menu li a:hover {
-    opacity: 1;
-    color: var(--hover);
-}
-
-.gomes-footer p {
-    color: var(--text-color3);
-    text-align: center;
-    margin-top: 15px;
-    margin-bottom: 10px;
-    font-size: 1.1em;
-}
-
-.gomes-footer .vertical {
-    border-right: 1px solid black;
+.gomes-footer .vcfo-footer-row-1 .vertical-bar {
+    border-left: 6px solid black;
     height: 200px;
+    position: relative;
+    right: 50%;
 }
 
-.gomes-footer .horizontal {
-    border-bottom: 1px solid black;
-    height: 250px;
+.gomes-footer .vcfo-footer-row-1 p {
+    text-align: left;
+    font-size: 15px;
+    padding-right: 50px;
+    margin-bottom: 10px;
 }
+
+.gomes-footer .vcfo-footer-row-1 .vcfo-footer-logo {
+    padding: 0;
+    margin: 0;
+}
+
+.gomes-footer .vcfo-footer-row-1 .vcfo-footer-logo img {
+    width: 80%;
+}
+
+.gomes-footer .vcfo-footer-row-1 .vcfo-footer-card-heading {
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: var(--text-color3);
+    position: relative;
+}
+
+.gomes-footer .vcfo-footer-row-1 .vcfo-footer-card-heading-2 {
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: var(--text-color3);
+    position: relative;
+    margin-left: 30px;
+}
+
+.gomes-footer .vcfo-footer-row-1 .vcfo-social-icons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+}
+
+.gomes-footer .vcfo-footer-row-1 .vcfo-social-icons li a {
+    color: #000000;
+    text-decoration: none;
+    margin: 10px;
+    padding: 5px 10px;
+    background: #fff;
+    box-sizing: border-box;
+    border-radius: 20px;
+
+}
+
+.gomes-footer .vcfo-footer-row-1 .vcfo-experience-card {
+    display: flex;
+    object-fit: cover;
+}
+
+.gomes-footer .vcfo-footer-row-1 .vcfo-experience-card img {
+    width: 30%;
+    height: 30%;
+    object-fit: contain;
+    border-radius: 5px;
+}
+
+.gomes-footer .vcfo-footer-row-1 .vcfo-experience-card .vcfo-img-text {
+    margin-bottom: 30px;
+    position: relative;
+    padding: 0 10px;
+}
+
+.gomes-footer .vcfo-footer-row-1 .vcfo-experience-card .vcfo-img-text .vcfo-heading {
+    font-size: 15px;
+    padding: 0 10px;
+    line-height: 1.4;
+}
+
+.gomes-footer .vcfo-footer-row-1 .vcfo-experience-card .vcfo-img-text .vcfo-meta {
+    padding: 0 10px;
+}
+
+.gomes-footer .vcfo-footer-row-1 .vcfo-links li a {
+    text-decoration: none;
+    color: var(--text-color3);
+    margin: 0;
+    line-height: 3.2;
+}
+
+.gomes-footer .vcfo-footer-row-1 .fa-solid {
+    width: 40px;
+    font-size: 18px;
+    padding-top: 2px;
+}
+
+.gomes-footer .vcfo-footer-row-1 .vcfo-more-info li {
+    color: var(--text-color3);
+    padding: 10px;
+    text-align: left;
+    font-size: 15px;
+}
+
+.gomes-footer .vcfo-footer-row-1 .vcfo-more-info li a {
+    text-decoration: none !important;
+    color: var(--text-color3);
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 1023px) {
+    .gomes-section {
+        overflow: hidden;
+    }
+
+    body {
+        font-family: "Poppins", sans-serif;
+        font-size: 11px;
+        line-height: 1.7;
+    }
+
+    .section-1 {
+        padding: 0 10px 0 0;
+        margin: 0;
+    }
+
+    .gomes-section .section-1 h1 {
+        font-size: 3rem;
+        font-weight: 300;
+        line-height: 1.6;
+    }
+
+    .section-1 .info-text p {
+        font-size: 13.5px;
+        line-height: 1.9;
+        font-weight: 300;
+    }
+
+    .gomes-section .vcfo-button {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .gomes-section .client-text p {
+        font-size: 13px;
+    }
+
+    .gomes-section .vcfo-container-2 .vcfo-experience-card {
+        width: 100%;
+        margin: 0;
+    }
+}
+
+/* footer .menu {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 10px 0;
+      text-align: left;
+    }
+  
+    footer .menu a {
+      font-size: 9px !important;
+    } */
+
+
+/* @media (min-width: 320px) and (max-width: 1023px) {
+          
+      .col-12 {
+      padding: 0;
+      flex: 0 0 auto;
+      width: 100%;
+    }
+   }  */
