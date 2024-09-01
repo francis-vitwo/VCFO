@@ -1,595 +1,887 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VCFO</title>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>VCFO</title>
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
-        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./style.css">
-</head>
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+            crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+            integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="./style.css">
+    </head>
 
+    <body class="gomes-vcfo-body">
 
+        <header class="gomes-header">
+            <nav class="navbar fixed-top navbar-expand-lg bg-transparent">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#"><img
+                            src="./images/light-logo.png" alt="Logo"></a>
 
+                    <button class="navbar-toggler" type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavAltMarkup"
+                        aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
 
-<body class="gomes-vcfo-body">
-
-    <header class="gomes-header">
-        <nav class="navbar fixed-top navbar-expand-lg bg-transparent">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#"><img src="./images/light-logo.png" alt="Logo"></a>
-
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-
-                <div class="collapse navbar-collapse justify-content-lg-end" id="navbarNavAltMarkup">
-                    <div class="navbar-nav">
-                        <a class="nav-link active" aria-current="page" href="#">About Us</a>
-                        <a class="nav-link" href="#">Virtual CFO Services</a>
-                        <a class="nav-link" href="#">Blogs & Resources</a>
-                        <a class="nav-link" href="#">Careers</a>
-                        <a class="nav-link" href="#">Our Founders</a>
-                        <a class="nav-link" href="#">Testimonials</a>
-                    </div>
-                </div>
-
-            </div>
-        </nav>
-    </header>
-
-
-    <section div class="gomes-section vcfo-hero-section section-1">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-7 col-md-7 col-sm-12 col-12 vcfo-container-1">
-                    <div class="info-text">
-                        <h1>Complete <span class="hightlight-text">Virtual CFO</span> Services</h1>
-                        <p>Get complete financial management with ViTWO's Virtual CFO services. From accounting and
-                            bookkeeping services to legal compliance, MIS reporting and more. Our expert team provides
-                            strategic advisory and outsourced accounting services in India. Whether you're a startup,
-                            MSME,
-                            or large enterprise, we help build robust financial processes that enhance revenue growth.
-                        </p>
-                    </div>
-
-                    <div class="vcfo-button">
-                        <button type="button" class="btn btn-secondary get-consultant-btn">Get Consultant
-                            <ion-icon name="arrow-forward-outline"></ion-icon>
-                        </button>
-                        <button type="button" class="btn btn-secondary check-service-btn">Check Our Services
-                            <ion-icon name="arrow-down-outline"></ion-icon>
-                        </button>
-                    </div>
-
-                    <div class="client client-text">
-                        <p>League of our esteemed clients who have always shown faith in our capabilities, propelling us to do better.</p>
-                    </div>
-
-                    <div class="client client-images">
-                        <marquee direction="left" loop="">
-                            <img src="./images/client1.webp">
-                            <img src="./images/client2.webp">
-                            <img src="./images/client3.webp">
-                            <img src="./images/client4.jpg">
-                            <img src="./images/client5.jpg">
-                            <img src="./images/client6.jpg">
-                            <img src="./images/client7.jpg">
-                            <img src="./images/client8.jpg">
-                            <img src="./images/client9.jpg">
-                            <img src="./images/client10.jpg">
-                            <img src="./images/client-11.jpg">
-                            <img src="./images/client12.jpg">
-                            <img src="./images/client13.jpg">
-                            <img src="./images/client14.webp">
-                            <img src="./images/client15.jpg">
-                            <img src="./images/client16.webp">
-                            <img src="./images/client17.webp">
-                            <img src="./images/client18.jpg">
-                            <img src="./images/client19.jpg">
-                            <img src="./images/client20.jpg">
-                            <img src="./images/client21.jpg">
-                            <img src="./images/client22.jpg">
-                            <img src="./images/client23.jpg">
-                            <img src="./images/client24.jpg">
-                        </marquee>
-                    </div>
-
-                </div>
-
-                <div class="col-lg-5 col-md-5 col-sm-12 col-12 vcfo-container-2">
-
-                    <div class="card vcfo-experience-card">
-
-                        <h5 class="card-header vcfo-experience-card-heading">Ask Our Experts !</h5>
-
-                        <div class="card-body">
-
-                            <div class="form vcfo-form">
-                                <form class="row no-gutter">
-                                    <div class="col-lg-12 col-md-12 col-sm-12 col-12">
-                                        <label for="inputEmail4" class="form-label ">Name <span
-                                                class="text-danger">*</span></label>
-                                        <input type="text" class="form-control" id="inputEmail4" placeholder="Name..">
-                                    </div>
-                                    <div class="col-lg-12 col-md-12 col-sm-12 col-12">
-                                        <label for="inputEmail4" class="form-label">Email <span
-                                                class="text-danger">*</span></label>
-                                        <input type="email" class="form-control" id="inputEmail4" placeholder="Email..">
-                                    </div>
-                                    <div class="col-lg-12 col-md-12 col-sm-12 col-12">
-                                        <label for="inputEmail4" class="form-label">Mobile <span
-                                                class="text-danger">*</span></label>
-                                        <input type="number" class="form-control" id="inputEmail4"
-                                            placeholder="Mobile..">
-                                    </div>
-
-                                    <div class="col-12">
-                                        <button type="submit" class="btn btn-success btn-sm w-100 my-3"
-                                            class="btn">Register</button>
-                                    </div>
-                                </form>
-
-                                <div class="vcfo-experience-card-bottom-text">
-                                    <p>I agree to receive the brochure on</p>
-
-                                    <p>Need to speak to an expert?</p>
-                                    <a href="#">
-                                        <p>Get Free Consultation</p>
-                                    </a>
-                                </div>
-                            </div>
+                    <div class="collapse navbar-collapse justify-content-lg-end"
+                        id="navbarNavAltMarkup">
+                        <div class="navbar-nav">
+                            <a class="nav-link active" aria-current="page"
+                                href="#">About Us</a>
+                            <a class="nav-link" href="#">Virtual CFO
+                                Services</a>
+                            <a class="nav-link" href="#">Blogs & Resources</a>
+                            <a class="nav-link" href="#">Careers</a>
+                            <a class="nav-link" href="#">Our Founders</a>
+                            <a class="nav-link" href="#">Testimonials</a>
                         </div>
                     </div>
 
                 </div>
-            </div>
-        </div>
-    </section>
+            </nav>
+        </header>
 
+        <!-- section-1  -->
 
-    <section class="gomes-section vcfo-experience-section section-2">
-        <div class="container">
-            <div class="info-text">
-                <h1> <span class="hightlight-text">20+</span> Years of Industry Experience in <span
-                        class="hightlight-text">Finance</span> and <span class="hightlight-text">Legal</span></h1>
-                <p class="desc">ViTWO is a trusted leader in providing top-tier Virtual CFO services to businesses
-                    seeking
-                    financial
-                    expertise and strategic guidance in tax, GST and financial planning. With over 20 years of industry
-                    experience, we empower companies with the insights and tools they need to thrive in a competitive
-                    marketplace.
-                    At ViTWO, we recognise that every business is unique, whether it's a big or small business. Our
-                    tailored
-                    services meet each client's specific needs. It's supported by a team of seasoned financial
-                    professionals
-                    like CAs, CPAs, CMAs and CS. Moreover, we have a proven track record of helping businesses across
-                    various industries with offshore accounting and taxation services.
+        <section div class="gomes-section vcfo-hero-section">
+            <div class="container">
+                <div class="row">
+                    <div
+                        class="col-lg-7 col-md-7 col-sm-12 col-12 vcfo-container-1">
+                        <div class="info-text">
+                            <h1>Complete <span class="hightlight-text">Virtual
+                                    CFO</span> Services</h1>
+                            <p>Get complete financial management with ViTWO's
+                                Virtual CFO services. From accounting and
+                                bookkeeping services to legal compliance, MIS
+                                reporting and more. Our expert team provides
+                                strategic advisory and outsourced accounting
+                                services in India. Whether you're a startup,
+                                MSME,
+                                or large enterprise, we help build robust
+                                financial processes that enhance revenue growth.
+                            </p>
+                        </div>
 
-                </p>
-            </div>
+                        <div class="vcfo-button">
+                            <button type="button"
+                                class="btn btn-secondary get-consultant-btn">Get
+                                Consultant
+                                <ion-icon
+                                    name="arrow-forward-outline"></ion-icon>
+                            </button>
+                            <button type="button"
+                                class="btn btn-secondary check-service-btn">Check
+                                Our Services
+                                <ion-icon name="arrow-down-outline"></ion-icon>
+                            </button>
+                        </div>
 
-            <div class="row">
+                        <div class="client client-text">
+                            <p>League of our esteemed clients who have always
+                                shown faith in our capabilities, propelling us
+                                to do better.</p>
+                        </div>
 
-                <div class="col-lg-4 col-md-4 col-sm-12 col-12 gap-gutter">
-                    <div class="">
+                        <div class="client client-images">
+                            <marquee direction="left" loop>
+                                <img src="./images/client1.webp">
+                                <img src="./images/client2.webp">
+                                <img src="./images/client3.webp">
+                                <img src="./images/client4.jpg">
+                                <img src="./images/client5.jpg">
+                                <img src="./images/client6.jpg">
+                                <img src="./images/client7.jpg">
+                                <img src="./images/client8.jpg">
+                                <img src="./images/client9.jpg">
+                                <img src="./images/client10.jpg">
+                                <img src="./images/client-11.jpg">
+                                <img src="./images/client12.jpg">
+                                <img src="./images/client13.jpg">
+                                <img src="./images/client14.webp">
+                                <img src="./images/client15.jpg">
+                                <img src="./images/client16.webp">
+                                <img src="./images/client17.webp">
+                                <img src="./images/client18.jpg">
+                                <img src="./images/client19.jpg">
+                                <img src="./images/client20.jpg">
+                                <img src="./images/client21.jpg">
+                                <img src="./images/client22.jpg">
+                                <img src="./images/client23.jpg">
+                                <img src="./images/client24.jpg">
+                            </marquee>
+                        </div>
+
+                    </div>
+
+                    <div
+                        class="col-lg-5 col-md-5 col-sm-12 col-12 vcfo-container-2">
 
                         <div class="card vcfo-experience-card">
+
+                            <h5
+                                class="card-header vcfo-experience-card-heading">Ask
+                                Our Experts !</h5>
+
+                            <div class="card-body">
+
+                                <div class="form vcfo-form">
+                                    <form class="row no-gutter">
+                                        <div
+                                            class="col-lg-12 col-md-12 col-sm-12 col-12">
+                                            <label for="inputEmail4"
+                                                class="form-label ">Name <span
+                                                    class="text-danger">*</span></label>
+                                            <input type="text"
+                                                class="form-control"
+                                                id="inputEmail4"
+                                                placeholder="Name..">
+                                        </div>
+                                        <div
+                                            class="col-lg-12 col-md-12 col-sm-12 col-12">
+                                            <label for="inputEmail4"
+                                                class="form-label">Email <span
+                                                    class="text-danger">*</span></label>
+                                            <input type="email"
+                                                class="form-control"
+                                                id="inputEmail4"
+                                                placeholder="Email..">
+                                        </div>
+                                        <div
+                                            class="col-lg-12 col-md-12 col-sm-12 col-12">
+                                            <label for="inputEmail4"
+                                                class="form-label">Mobile <span
+                                                    class="text-danger">*</span></label>
+                                            <input type="number"
+                                                class="form-control"
+                                                id="inputEmail4"
+                                                placeholder="Mobile..">
+                                        </div>
+
+                                        <div class="col-12">
+                                            <button type="submit"
+                                                class="btn btn-success btn-sm w-100 my-3"
+                                                class="btn">Register</button>
+                                        </div>
+                                    </form>
+
+                                    <div
+                                        class="vcfo-experience-card-bottom-text">
+                                        <p>I agree to receive the brochure
+                                            on</p>
+
+                                        <p>Need to speak to an expert?</p>
+                                        <a href="#">
+                                            <p>Get Free Consultation</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- section-2  -->
+
+        <section class="gomes-section vcfo-indsexp-section">
+            <div class="container">
+                <div class="indsexp-text">
+                    <h1> <span class="hightlight-text">20+</span> Years of
+                        Industry Experience in <span
+                            class="hightlight-text">Finance</span> and <span
+                            class="hightlight-text">Legal</span></h1>
+                    <p class="desc">ViTWO is a trusted leader in providing
+                        top-tier Virtual CFO services to businesses
+                        seeking
+                        financial
+                        expertise and strategic guidance in tax, GST and
+                        financial planning. With over 20 years of industry
+                        experience, we empower companies with the insights and
+                        tools they need to thrive in a competitive
+                        marketplace.
+                        At ViTWO, we recognise that every business is unique,
+                        whether it's a big or small business. Our
+                        tailored
+                        services meet each client's specific needs. It's
+                        supported by a team of seasoned financial
+                        professionals
+                        like CAs, CPAs, CMAs and CS. Moreover, we have a proven
+                        track record of helping businesses across
+                        various industries with offshore accounting and taxation
+                        services.
+
+                    </p>
+                </div>
+
+                <div class="row indsexp-row">
+
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-12 gap-gutter">
+                        <div class="card vcfo-indsexp-card">
                             <div class="icon-img">
-                                <img src="./images/slide1.webp" alt="icon-image1">
+                                <img src="./images/slide1.webp"
+                                    alt="icon-image1">
                             </div>
 
                             <div class="card-body">
-                                <h4 class="card-heading">4 Pillars of Profit</h4>
+                                <h4 class="card-heading">4 Pillars of
+                                    Profit</h4>
                                 <p class="card-body-text">
-                                    Cash flow, Forecasting, compliance management, and financial reporting.
+                                    Cash flow, Forecasting, compliance
+                                    management, and financial reporting.
                                 </p>
                             </div>
 
-                            <div class="vcfo-button experience-button">
-                                <button type="button" class="btn btn-secondary get-consultant-btn">Learn More
-                                    <ion-icon name="arrow-forward-outline"></ion-icon>
+                            <div class="vcfo-button indsexp-button">
+                                <button type="button"
+                                    class="btn btn-secondary get-consultant-btn">Learn
+                                    More
+                                    <ion-icon
+                                        name="arrow-forward-outline"></ion-icon>
                                 </button>
                             </div>
                         </div>
                     </div>
-                </div>
 
-                <div class="col-lg-4 col-md-4 col-sm-12 col-12 gap-gutter">
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-12 gap-gutter">
 
-                    <div class="card vcfo-experience-card">
-                        <div class="icon-img">
-                            <img src="./images/slide2.webp" alt="icon-image2">
-                        </div>
-
-                        <div class="card-body">
-                            <h4 class="card-heading">Find Your Perfect Niche</h4>
-                            <p class="card-body-text">
-                                Identify your ideal market segment and develop winning strategies to expand beyond
-                                growth.
-                            </p>
-                        </div>
-
-                        <div class="vcfo-button experience-button">
-                            <button type="button" class="btn btn-secondary get-consultant-btn">Learn More
-                                <ion-icon name="arrow-forward-outline"></ion-icon>
-                            </button>
-                        </div>
-                    </div>
-
-                </div>
-
-                <div class="col-lg-4 col-md-4 col-sm-12 col-12 gap-gutter">
-
-                    <div class="card vcfo-experience-card">
-                        <div class="icon-img">
-                            <img src="./images/slide3.webp" alt="icon-image3">
-                        </div>
-
-                        <div class="card-body">
-                            <h4 class="card-heading">Dynamic MIS Reporting</h4>
-                            <p class="card-body-text">
-                                Master the art of dynamic MIS Reporting - the cornerstone of our virtual CFO services.
-
-                            </p>
-                        </div>
-
-                        <div class="vcfo-button experience-button">
-                            <button type="button" class="btn btn-secondary get-consultant-btn">Learn More
-                                <ion-icon name="arrow-forward-outline"></ion-icon>
-                            </button>
-                        </div>
-                    </div>
-
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-    <section div class="gomes-section section-5">
-
-        <div class="row">
-
-            <!-- left side text  -->
-            <div class="col-lg-6 col-md-6 col-sm-12 col-12">
-
-                <div class="virtual-text">
-                    <h1>What is Virtual CFO?</h1>
-                    <p>A Virtual CFO is an external financial expert who provides high-level financial management and
-                        strategic advisory services. Any business can hire a VCFO on a part-time, contractual, or
-                        as-needed basis. This service is ideal for businesses needing expert financial guidance without
-                        the expense of a full-time CFO. A Virtual CFO provider helps companies to make informed
-                        decisions, improve financial health, and achieve growth objectives.</p>
-
-                    <ul class="ul virtual-ul">
-                        <h4 class="benefits-heading">VCFO Benefits:</h4>
-                        <li><i class="fas fa-check-circle"></i><b>Cost-Effective:</b>
-                            Access to high-level financial expertise without the cost of a full-time executive.
-                        </li>
-
-                        <li><i class="fas fa-check-circle"></i><b>Flexibility:</b>
-                            Scale services up or down based on business needs.
-                        </li>
-
-                        <li><i class="fas fa-check-circle"></i><b>Expert Guidance:</b>
-                            Benefit from seasoned financial professionals' knowledge and experience.
-                        </li>
-
-                        <li><i class="fas fa-check-circle"></i><b>Strategic Focus:</b>
-                            Drive growth and profitability with informed decisions.
-                        </li>
-
-                    </ul>
-                </div>
-            </div>
-
-            <!-- right side image  -->
-            <div class="col-lg-6 col-md-6 col-sm-12 col-12">
-                <div class="image-container">
-                    <img src="./images/Section3-img.webp" alt="Section3-img" style=" width: 100%; height: 100%;">
-                </div>
-            </div>
-        </div>
-
-    </section>
-
-    <section class="gomes-section section-3">
-        <div class="vissionaries-text">
-            <h1>Meet Our Visionaries</h1>
-            <p>ViTWO is proud to have a diverse team of visionaries who have dedicated their lives to providing
-                exceptional
-                financial management services. Our visionaries have a strong background in various fields, including
-                tax, GST,
-                financial planning, and offshore accounting and taxation.</p>
-        </div>
-
-        <div class="row">
-            <div class="col-lg-6 col-md-6 col-sm-12 col-12 gap-gutter">
-                <div class="founder-img">
-                    <img src="./images/vissionary1.png" alt="founder-1">
-                </div>
-            </div>
-            <div class="col-lg-6 col-md-6 col-sm-12 col-12 gap-gutter">
-                <div class="founder-text">
-                    <h3>Neeraj Bhuwalka</h3>
-                    <h6>CEO & Director | CA, Financial Forecasting</h6>
-                    <p>More than 20 years of experience in providing comprehensive financial management solutions to
-                        diverse businesses across industries and domains.</p>
-                </div>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-lg-6 col-md-6 col-sm-12 col-12 ">
-                <div class="founder-text">
-                    <h3>Laxminarayan Dutta</h3>
-                    <h6>COO</h6>
-                    <p>Experienced Senior Executive with 16+ years in Auto-Components, Automobile, Heavy
-                        fabrication,engineering manufacturing & Mining industries.</p>
-                </div>
-            </div>
-
-            <div class="col-lg-6 col-md-6 col-sm-12 col-12 ">
-                <div class="founder-img img-wrap">
-                    <img src="./images/vissionary2.png" alt="founder-2">
-                    <div class="founder-inner-img">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, impedit officiis quam
-                            excepturi facilis autem, dolores repudiandae dolorem ipsa corrupti, nihil repellendus
-                            laudantium
-                            modi tempore officia distinctio. Illo, quod tenetur!</p>
-                    </div>
-                </div>
-            </div>
-    </section>
-
-    <section class="gomes-section section-4">
-
-        <div class="vcfo-container">
-            <h1>Some Testimonials From Our Customers</h1>
-            <p>Our customers say Excellent
-                <i class="fas fa-star ratings"></i>
-                <i class="fas fa-star ratings"></i>
-                <i class="fas fa-star ratings"></i>
-                <i class="fas fa-star ratings"></i>
-                <i class="fas fa-star ratings"></i>
-                4.9 out of 5 based on 1,947 reviews
-            </p>
-        </div>
-
-        <div class="row row-gap">
-            <div class="col-lg-4 col-md-4 col-sm-12 col-12 gutter-gap">
-
-                <div class="card vcfo-experience-card">
-                    <div class="card-body">
-
-                        <div class="vcfo-style">
-                            <div class="quote">
-                                <i class="fa-solid fa-4x fa-quote-left vcfo-quote"></i>
+                        <div class="card vcfo-indsexp-card">
+                            <div class="icon-img">
+                                <img src="./images/slide2.webp"
+                                    alt="icon-image2">
                             </div>
-                            <div class="ratings">
-                                <i class="fas fa-1x fa-star vcfo-star"></i><i class="fas fa-1x fa-star"></i><i
-                                    class="fas fa-1x fa-star"></i><i class="fas fa-1x fa-star"></i><i
-                                    class="fas fa-1x fa-star"></i>
+
+                            <div class="card-body">
+                                <h4 class="card-heading">Find Your Perfect
+                                    Niche</h4>
+                                <p class="card-body-text">
+                                    Identify your ideal market segment and
+                                    develop winning strategies to expand beyond
+                                    growth.
+                                </p>
+                            </div>
+
+                            <div class="vcfo-button indsexp-button">
+                                <button type="button"
+                                    class="btn btn-secondary get-consultant-btn">Learn
+                                    More
+                                    <ion-icon
+                                        name="arrow-forward-outline"></ion-icon>
+                                </button>
                             </div>
                         </div>
 
-                        <p class="vcfo-experience-card-text">What truly sets Startupfino as apart from their unwavering
-                            dedication
-                            to
-                            customer
-                            satisfaction, they go above and beyond to ensure that their clients' needs are fully met.
-                            The level of
-                            professionalism and integrity they demonstrate is truly commendable. It's rare to find a
-                            company that
-                            consistently delivers on its promises, as Startupfino does so with ease.</p>
-                        <p class="vcfo-experience-card-text"><small class="text-muted">Last updated 3 mins ago</small>
-                        </p>
                     </div>
 
-                    <!-- <div class="vcfo-experience-card-image">
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-12 gap-gutter">
+
+                        <div class="card vcfo-indsexp-card">
+                            <div class="icon-img">
+                                <img src="./images/slide3.webp"
+                                    alt="icon-image3">
+                            </div>
+
+                            <div class="card-body">
+                                <h4 class="card-heading">Dynamic MIS
+                                    Reporting</h4>
+                                <p class="card-body-text">
+                                    Master the art of dynamic MIS Reporting -
+                                    the cornerstone of our virtual CFO services.
+
+                                </p>
+                            </div>
+
+                            <div class="vcfo-button indsexp-button">
+                                <button type="button"
+                                    class="btn btn-secondary get-consultant-btn">Learn
+                                    More
+                                    <ion-icon
+                                        name="arrow-forward-outline"></ion-icon>
+                                </button>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- section-3  -->
+
+        <section div class="gomes-section virtual-cfo">
+
+            <div class="row">
+
+                <!-- left side text  -->
+                <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+
+                    <div class="virtual-text">
+                        <h1>What is Virtual CFO?</h1>
+                        <p>A Virtual CFO is an external financial expert who
+                            provides high-level financial management and
+                            strategic advisory services. Any business can hire a
+                            VCFO on a part-time, contractual, or
+                            as-needed basis. This service is ideal for
+                            businesses needing expert financial guidance without
+                            the expense of a full-time CFO. A Virtual CFO
+                            provider helps companies to make informed
+                            decisions, improve financial health, and achieve
+                            growth objectives.</p>
+
+                        <ul class="ul virtual-ul">
+                            <h4 class="benefits-heading">VCFO Benefits:</h4>
+                            <li><i
+                                    class="fas fa-check-circle"></i><b>Cost-Effective:</b>
+                                Access to high-level financial expertise without
+                                the cost of a full-time executive.
+                            </li>
+
+                            <li><i
+                                    class="fas fa-check-circle"></i><b>Flexibility:</b>
+                                Scale services up or down based on business
+                                needs.
+                            </li>
+
+                            <li><i class="fas fa-check-circle"></i><b>Expert
+                                    Guidance:</b>
+                                Benefit from seasoned financial professionals'
+                                knowledge and experience.
+                            </li>
+
+                            <li><i class="fas fa-check-circle"></i><b>Strategic
+                                    Focus:</b>
+                                Drive growth and profitability with informed
+                                decisions.
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- right side image  -->
+                <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                    <div class="image-container">
+                        <img src="./images/Section3-img.webp" alt="Section3-img"
+                            style=" width: 100%; height: 100%;">
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- section-3  -->
+
+        <section class="gomes-section vissionaries">
+            <div class="vissionaries-container">
+                <div class="vissionaries-text">
+                    <h1>Meet Our Visionaries</h1>
+                    <p>At the helm of our finance operations stand the industry
+                        stalwarts with an unrivalled track record of success.
+                        Shoulder-to-shoulder! With our exceptional team, we
+                        direct an ecosystem of excellence and discipline,
+                        ensuring your business reaches its full potential.</p>
+                </div>
+
+                <div class="leader-container">
+                    <div class="leader-heading">
+                        <h1><i>THE LEADERS</i></h1>
+                        <p>At the helm of our finance operations stand the
+                            industry
+                            stalwarts with an unrivalled track record of
+                            success.
+                            Shoulder-to-shoulder! With our exceptional team, we
+                            direct an ecosystem of excellence and discipline,
+                            ensuring your business reaches its full
+                            potential.</p>
+                    </div>
+
+                    <div class="profile-card">
+                        <div class="profile-img">
+                            <img src="./images/Neeraj Bhuwalka-CEO.jpg" alt>
+                        </div>
+
+                        <div class="profile-headings">
+                            <h3>Neeraj Bhuwalka</h3>
+                            <h5>FOUNDER & CEO</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur
+                                adipisicing
+                                elit. Corrupti cumque dolores adipisci sapiente,
+                                cum
+                                possimus minima debitis numquam non provident
+                                dicta
+                                labore eaque repellat facilis totam quis!
+                                Asperiores, ea in.</p>
+                            <div class="profile-social-links">
+                                <a href="#"><i
+                                        class="fab fa-linkedin-in vcfo-socials"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="profile-card">
+                        <div class="profile-img">
+                            <img src="./images/Laxminarayan Dutta-COO.jpg" alt>
+                        </div>
+
+                        <div class="profile-headings">
+                            <h3>Laxmi Narayan Dutta</h3>
+                            <h5>C0O</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur
+                                adipisicing
+                                elit. Corrupti cumque dolores adipisci sapiente,
+                                cum
+                                possimus minima debitis numquam non provident
+                                dicta
+                                labore eaque repellat facilis totam quis!
+                                Asperiores, ea in.</p>
+                            <div class="profile-social-links">
+                                <a href="#"><i
+                                        class="fab fa-linkedin-in vcfo-socials"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="profile-card">
+                        <div class="profile-img">
+                            <img src="./images/Sathya-Pramod-Picture.jpg" alt>
+                        </div>
+
+                        <div class="profile-headings">
+                            <h3>Sathya Pramod</h3>
+                                <h5>DIRECTOR</h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur
+                                    adipisicing
+                                    elit. Corrupti cumque dolores adipisci
+                                    sapiente,
+                                    cum
+                                    possimus minima debitis numquam non
+                                    provident
+                                    dicta
+                                    labore eaque repellat facilis totam quis!
+                                    Asperiores, ea in.</p>
+                                <div class="profile-social-links">
+                                    <a href="#"><i
+                                            class="fab fa-linkedin-in vcfo-socials"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- <div class="dept-head-container">
+                    <div class="profile-card">
+                        <div class="profile-img">
+                            <img src="./images/Neeraj Bhuwalka-CEO.jpg" alt>
+                        </div>
+
+                        <div class="profile-headings">
+                            <h3>Neeraj Bhuwalka</h3>
+                            <h5>FOUNDER & CEO</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur
+                                adipisicing
+                                elit. Corrupti cumque dolores adipisci sapiente,
+                                cum
+                                possimus minima debitis numquam non provident
+                                dicta
+                                labore eaque repellat facilis totam quis!
+                                Asperiores, ea in.</p>
+                            <div class="profile-social-links">
+                                <a href="#"><i
+                                        class="fab fa-linkedin-in vcfo-socials"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="profile-card">
+                        <div class="profile-img">
+                            <img src="./images/Neeraj Bhuwalka-CEO.jpg" alt>
+                        </div>
+
+                        <div class="profile-headings">
+                            <h3>Neeraj Bhuwalka</h3>
+                            <h5>FOUNDER & CEO</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur
+                                adipisicing
+                                elit. Corrupti cumque dolores adipisci sapiente,
+                                cum
+                                possimus minima debitis numquam non provident
+                                dicta
+                                labore eaque repellat facilis totam quis!
+                                Asperiores, ea in.</p>
+                            <div class="profile-social-links">
+                                <a href="#"><i
+                                        class="fab fa-linkedin-in vcfo-socials"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="profile-card">
+                        <div class="profile-img">
+                            <img src="./images/Neeraj Bhuwalka-CEO.jpg" alt>
+                        </div>
+
+                        <div class="profile-headings">
+                            <h3>Neeraj Bhuwalka</h3>
+                            <h5>FOUNDER & CEO</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur
+                                adipisicing
+                                elit. Corrupti cumque dolores adipisci sapiente,
+                                cum
+                                possimus minima debitis numquam non provident
+                                dicta
+                                labore eaque repellat facilis totam quis!
+                                Asperiores, ea in.</p>
+                            <div class="profile-social-links">
+                                <a href="#"><i
+                                        class="fab fa-linkedin-in vcfo-socials"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="profile-card">
+                        <div class="profile-img">
+                            <img src="./images/Neeraj Bhuwalka-CEO.jpg" alt>
+                        </div>
+
+                        <div class="profile-headings">
+                            <h3>Neeraj Bhuwalka</h3>
+                            <h5>FOUNDER & CEO</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur
+                                adipisicing
+                                elit. Corrupti cumque dolores adipisci sapiente,
+                                cum
+                                possimus minima debitis numquam non provident
+                                dicta
+                                labore eaque repellat facilis totam quis!
+                                Asperiores, ea in.</p>
+                            <div class="profile-social-links">
+                                <a href="#"><i
+                                        class="fab fa-linkedin-in vcfo-socials"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+
+                </div>
+            </section>
+
+            <!-- section-4  -->
+
+            <section class="gomes-section testimonials">
+
+                <div class="testimonials-container">
+                    <h1>Some Testimonials From Our Customers</h1>
+                    <p>Our customers say Excellent
+                        <i class="fas fa-star ratings"></i>
+                        <i class="fas fa-star ratings"></i>
+                        <i class="fas fa-star ratings"></i>
+                        <i class="fas fa-star ratings"></i>
+                        <i class="fas fa-star ratings"></i>
+                        4.9 out of 5 based on 1,947 reviews
+                    </p>
+                </div>
+
+                <div class="row row-gap">
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-12 gutter-gap">
+
+                        <div class="card testimonials-experience-card">
+                            <div class="card-body">
+
+                                <div class="testimonials-style">
+                                    <div class="quote">
+                                        <i
+                                            class="fa-solid fa-4x fa-quote-left testimonials-quote"></i>
+                                    </div>
+                                    <div class="ratings">
+                                        <i
+                                            class="fas fa-1x fa-star testimonials-star"></i><i
+                                            class="fas fa-1x fa-star"></i><i
+                                            class="fas fa-1x fa-star"></i><i
+                                            class="fas fa-1x fa-star"></i><i
+                                            class="fas fa-1x fa-star"></i>
+                                    </div>
+                                </div>
+
+                                <p
+                                    class="testimonials-experience-card-text">What
+                                    truly sets Startupfino as apart from their
+                                    unwavering
+                                    dedication
+                                    to
+                                    customer
+                                    satisfaction, they go above and beyond to
+                                    ensure that their clients' needs are fully
+                                    met.
+                                    The level of
+                                    professionalism and integrity they
+                                    demonstrate is truly commendable. It's rare
+                                    to find a
+                                    company that
+                                    consistently delivers on its promises, as
+                                    Startupfino does so with ease.</p>
+                                <p
+                                    class="testimonials-experience-card-text"><small
+                                        class="text-muted">Last updated 3 mins
+                                        ago</small>
+                                </p>
+                            </div>
+
+                            <!-- <div class="testimonials-experience-card-image">
                         <img src="./images/slide1.webp" class="card-img-bottom" alt="...">
 
-                        <div class="vcfo-client-name">
+                        <div class="testimonials-client-name">
                             <h5>Card title</h5>
                             <p>Shadow fax</p>
                         </div>
 
                     </div> -->
 
-                </div>
-            </div>
-
-
-
-            <div class="col-lg-4 col-md-4 col-sm-12 col-12">
-                <div class="card vcfo-experience-card">
-                    <div class="card-body">
-
-                        <div class="vcfo-style">
-                            <div class="quote">
-                                <i class="fa-solid fa-4x fa-quote-left"></i>
-                            </div>
-                            <div class="ratings">
-                                <i class="fas fa-1x fa-star"></i><i class="fas fa-1x fa-star"></i><i
-                                    class="fas fa-1x fa-star"></i><i class="fas fa-1x fa-star"></i><i
-                                    class="fas fa-1x fa-star"></i>
-                            </div>
                         </div>
-
-                        <p class="vcfo-experience-card-text">We wholeheartedly recommend Startupfino to anyone in need
-                            of the
-                            startup
-                            services
-                            provided by the company. Their exceptional service, expertise, and results-oriented approach
-                            make them a
-                            top choice in the industry. We are incredibly grateful for the positive impact they've had
-                            on our
-                            project, and we look forward to continuing taking more services with them in the future.</p>
-                        <p class="vcfo-experience-card-text"><small class="text-muted">Last updated 3 mins ago</small>
-                        </p>
                     </div>
 
-                    <!-- <div class="vcfo-experience-card-image">
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-12">
+                        <div class="card testimonials-experience-card">
+                            <div class="card-body">
+
+                                <div class="testimonials-style">
+                                    <div class="quote">
+                                        <i
+                                            class="fa-solid fa-4x fa-quote-left"></i>
+                                    </div>
+                                    <div class="ratings">
+                                        <i class="fas fa-1x fa-star"></i><i
+                                            class="fas fa-1x fa-star"></i><i
+                                            class="fas fa-1x fa-star"></i><i
+                                            class="fas fa-1x fa-star"></i><i
+                                            class="fas fa-1x fa-star"></i>
+                                    </div>
+                                </div>
+
+                                <p class="testimonials-experience-card-text">We
+                                    wholeheartedly recommend Startupfino to
+                                    anyone in need
+                                    of the
+                                    startup
+                                    services
+                                    provided by the company. Their exceptional
+                                    service, expertise, and results-oriented
+                                    approach
+                                    make them a
+                                    top choice in the industry. We are
+                                    incredibly grateful for the positive impact
+                                    they've had
+                                    on our
+                                    project, and we look forward to continuing
+                                    taking more services with them in the
+                                    future.</p>
+                                <p
+                                    class="testimonials-experience-card-text"><small
+                                        class="text-muted">Last updated 3 mins
+                                        ago</small>
+                                </p>
+                            </div>
+
+                            <!-- <div class="testimonials-experience-card-image">
                         <img src="./images/slide2.webp" class="card-img-bottom" alt="...">
 
-                        <div class="vcfo-client-name">
+                        <div class="testimonials-client-name">
                             <h5>Card title</h5>
                             <p>Shadow fax</p>
                         </div>
 
                     </div> -->
 
-                </div>
-            </div>
-
-
-            <div class="col-lg-4 col-md-4 col-sm-12 col-12">
-                <div class="card vcfo-experience-card">
-                    <div class="card-body">
-
-                        <div class="vcfo-style">
-                            <div class="quote">
-                                <i class="fa-solid fa-4x fa-quote-left"></i>
-                            </div>
-                            <div class="ratings">
-                                <i class="fas fa-1x fa-star"></i><i class="fas fa-1x fa-star"></i><i
-                                    class="fas fa-1x fa-star"></i><i class="fas fa-1x fa-star"></i><i
-                                    class="fas fa-1x fa-star"></i>
-                            </div>
                         </div>
-
-                        <p class="vcfo-experience-card-text">Communication with Startupfino was seamless throughout the
-                            entire
-                            process
-                            of Private
-                            Company registration. They kept us informed at every stage, providing regular updates and
-                            addressing any
-                            questions or concerns promptly. It was clear that they valued our input and made us feel
-                            like true
-                            partners in the journey.</p>
-                        <p class="vcfo-experience-card-text"><small class="text-muted">Last updated 3 mins ago</small>
-                        </p>
                     </div>
 
-                    <!-- <div class="vcfo-experience-card-image">
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-12">
+                        <div class="card testimonials-experience-card">
+                            <div class="card-body">
+
+                                <div class="testimonials-style">
+                                    <div class="quote">
+                                        <i
+                                            class="fa-solid fa-4x fa-quote-left"></i>
+                                    </div>
+                                    <div class="ratings">
+                                        <i class="fas fa-1x fa-star"></i><i
+                                            class="fas fa-1x fa-star"></i><i
+                                            class="fas fa-1x fa-star"></i><i
+                                            class="fas fa-1x fa-star"></i><i
+                                            class="fas fa-1x fa-star"></i>
+                                    </div>
+                                </div>
+
+                                <p
+                                    class="testimonials-experience-card-text">Communication
+                                    with Startupfino was seamless throughout the
+                                    entire
+                                    process
+                                    of Private
+                                    Company registration. They kept us informed
+                                    at every stage, providing regular updates
+                                    and
+                                    addressing any
+                                    questions or concerns promptly. It was clear
+                                    that they valued our input and made us feel
+                                    like true
+                                    partners in the journey.</p>
+                                <p
+                                    class="testimonials-experience-card-text"><small
+                                        class="text-muted">Last updated 3 mins
+                                        ago</small>
+                                </p>
+                            </div>
+
+                            <!-- <div class="testimonials-experience-card-image">
                         <img src="./images/slide3.webp" class="card-img-bottom" alt="...">
 
-                        <div class="vcfo-client-name">
+                        <div class="testimonials-client-name">
                             <h5>Card title</h5>
                             <p>Shadow fax</p>
                         </div> -->
 
+                        </div>
+
+                    </div>
                 </div>
 
             </div>
-        </div>
+        </section>
 
-        </div>
-    </section>
-
-
-
-    <footer class="footer gomes-footer">
-        <div class="vcfo-container">
-            <div class="row vcfo-footer-row-1">
-                <div class="col-lg-3 col-md-3 col-sm-12 col-12">
-                    <div class="vertial-bar"></div>
-                    <div class="vcfo-footer-logo">
-                        <img src="./images/light-logo.png" alt="footer-logo">
-                    </div>
-                    <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.
-                        It
-                        is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-                    <ul class="vcfo-social-icons">
-                        <li><a href="#"><i class="fab fa-facebook-f vcfo-socials"></i></a></li>
-                        <li><a href="#"><i class="fab fa-instagram vcfo-socials"></i></a></li>
-                        <li><a href="#"><i class="fab fa-linkedin-in vcfo-socials"></i></a></li>
-                        <li><a href="#"><i class="fab fa-youtube vcfo-socials"></i></a></li>
-                    </ul>
-                </div>
-                <div class="col-lg-3 col-md-3 col-sm-12 col-12">
-                    <h2 class="vcfo-footer-card-heading"> Latest News</h2>
-                    <div class="block-21 mb-4 d-flex vcfo-experience-card">
-                        <img src="./images/footer-img-1.jpg" class="vcfo-footer-img-1" alt="footer-img">
-                        <div class="vcfo-img-text">
-                            <h3 class="vcfo-heading">Even the all-powerful Pointing
-                                has no control about
-                                your
-                                failing.</h3>
-                            <div class="vcfo-meta">
-                                <span class="vcfo-meta-date">March 15, 2023</span>
-                            </div>
+        <footer class="footer gomes-footer">
+            <div class="vcfo-footer-container">
+                <div class="row vcfo-footer-row-1">
+                    <div class="col-lg-3 col-md-3 col-sm-12 col-12">
+                        <div class="vertial-bar"></div>
+                        <div class="vcfo-footer-logo">
+                            <img src="./images/light-logo.png"
+                                alt="footer-logo">
                         </div>
-                    </div>
-
-                    <div class="block-21 mb-4 d-flex vcfo-experience-card">
-                        <img src="./images/footer-img-2.jpg" class="vcfo-footer-img-2" alt="footer-img">
-                        <div class="vcfo-img-text">
-                            <h3 class="vcfo-heading">Even the all-powerful Pointing
-                                has no control about
-                                your
-                                failing.</h3>
-                            <div class="vcfo-meta">
-                                <span class="vcfo-meta-date">March 15, 2023</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-3 col-sm-12 col-12">
-                    <h2 class="vcfo-footer-card-heading-2"> Quick Links </h2>
-                    <ul class="vcfo-links">
-                        <li><a href="">About Us</a></li>
-                        <li><a href="">Virtual CFO Services</a></li>
-                        <li><a href="">Blogs & Resouces</a></li>
-                        <li><a href="">Careers</a></li>
-                        <li><a href="">Our Founders</a></li>
-                        <li><a href="">Testimonials</a></li>
-                    </ul>
-                </div>
-                <div class="col-lg-3 col-md-3 col-sm-12 col-12">
-                    <h2 class="vcfo-footer-card-heading-2"> Have Any Question? </h2>
-                    <div class="block-23 mb-3">
-                        <ul class="vcfo-more-info">
-                            <li><i class="fa-solid fa-location-dot"></i><span class="text-more-info">203 Fake St.
-                                    Mountain View,
-                                    San Francisco, California, USA</span></li>
-                            <li><a href="#"><i class="fa-solid fa-phone"></i><span class="text-more-info">+2 392 3929
-                                        210</span></a></li>
-                            <li><a href="#"><i class="fa-solid fa-location-arrow"></i><span
-                                        class="text-more-info">info@yourdomain.com</span></a></li>
+                        <p>A small river named Duden flows by their place and
+                            supplies it with the necessary regelialia.
+                            It
+                            is a paradisematic country, in which roasted parts
+                            of sentences fly into your mouth.</p>
+                        <ul class="vcfo-social-icons">
+                            <li><a href="#"><i
+                                        class="fab fa-facebook-f vcfo-socials"></i></a></li>
+                            <li><a href="#"><i
+                                        class="fab fa-instagram vcfo-socials"></i></a></li>
+                            <li><a href="#"><i
+                                        class="fab fa-linkedin-in vcfo-socials"></i></a></li>
+                            <li><a href="#"><i
+                                        class="fab fa-youtube vcfo-socials"></i></a></li>
                         </ul>
                     </div>
+                    <div class="col-lg-3 col-md-3 col-sm-12 col-12">
+                        <h2 class="vcfo-footer-card-heading"> Latest News</h2>
+                        <div class="block-21 mb-4 d-flex vcfo-footer-card">
+                            <img src="./images/footer-img-1.jpg"
+                                class="vcfo-footer-img-1" alt="footer-img">
+                            <div class="vcfo-img-text">
+                                <h3 class="vcfo-heading">Even the all-powerful
+                                    Pointing
+                                    has no control about
+                                    your
+                                    failing.</h3>
+                                <div class="vcfo-meta">
+                                    <span class="vcfo-meta-date">March 15,
+                                        2023</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="block-21 mb-4 d-flex vcfo-footer-card">
+                            <img src="./images/footer-img-2.jpg"
+                                class="vcfo-footer-img-2" alt="footer-img">
+                            <div class="vcfo-img-text">
+                                <h3 class="vcfo-heading">Even the all-powerful
+                                    Pointing
+                                    has no control about
+                                    your
+                                    failing.</h3>
+                                <div class="vcfo-meta">
+                                    <span class="vcfo-meta-date">March 15,
+                                        2023</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-12 col-12">
+                        <h2 class="vcfo-footer-card-heading-2"> Quick Links
+                        </h2>
+                        <ul class="vcfo-links">
+                            <li><a href>About Us</a></li>
+                            <li><a href>Virtual CFO Services</a></li>
+                            <li><a href>Blogs & Resouces</a></li>
+                            <li><a href>Careers</a></li>
+                            <li><a href>Our Founders</a></li>
+                            <li><a href>Testimonials</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-12 col-12">
+                        <h2 class="vcfo-footer-card-heading-2"> Have Any
+                            Question? </h2>
+                        <div class="block-23 mb-3">
+                            <ul class="vcfo-more-info">
+                                <li><i
+                                        class="fa-solid fa-location-dot"></i><span
+                                        class="text-more-info">203 Fake St.
+                                        Mountain View,
+                                        San Francisco, California,
+                                        USA</span></li>
+                                <li><a href="#"><i
+                                            class="fa-solid fa-phone"></i><span
+                                            class="text-more-info">+2 392 3929
+                                            210</span></a></li>
+                                <li><a href="#"><i
+                                            class="fa-solid fa-location-arrow"></i><span
+                                            class="text-more-info">info@yourdomain.com</span></a></li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="row mt-5 vcfo-footer-row-2">
-                <div class="horizontal"></div>
-                <div class="col-lg-12 col-md-12 col-sm-12 col-12 text-center">
-                    <p class="vcfo-copyright">
-                        ©2023 6 Livo Technologies Pvt Ltd. | All Rights Reserved
-                    </p>
+                <div class="row mt-5 vcfo-footer-row-2">
+                    <div class="horizontal"></div>
+                    <div
+                        class="col-lg-12 col-md-12 col-sm-12 col-12 text-center">
+                        <p class="vcfo-copyright">
+                            ©2023 6 Livo Technologies Pvt Ltd. | All Rights
+                            Reserved
+                        </p>
+                    </div>
                 </div>
-            </div>
-    </footer>
+            </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+            <script
+                src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+                crossorigin="anonymous"></script>
+            <script type="module"
+                src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+            <script nomodule
+                src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 
-</body>
+        </body>
 
-</html>
+    </html>
