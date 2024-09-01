@@ -85,7 +85,7 @@ section.gomes-section {
     padding: 60px 20px;
 }
 
-.section-1 {
+.vcfo-hero-section {
     padding: 20px;
     color: var(--text-color2) !important;
     background-image: url(./images/shadow-img1.webp);
@@ -93,16 +93,16 @@ section.gomes-section {
     background-size: cover;
 }
 
-.section-1 h1,
+.vcfo-hero-section h1,
 p {
     text-align: left;
 }
 
-.section-1 .vcfo-container-1 {
+.vcfo-hero-section .vcfo-container-1 {
     padding: 50px;
 }
 
-section.gomes-section.section-1 h1 {
+section.gomes-section.vcfo-hero-section h1 {
     max-width: 80%;
     font-size: 3rem;
     font-weight: 300;
@@ -116,13 +116,13 @@ section.gomes-section.section-1 h1 {
     filter: drop-shadow(4px 1px 23px #6def72);
 }
 
-.section-1 .info-text p {
+.vcfo-hero-section .info-text p {
     font-size: 0.9rem;
     line-height: 1.8;
     font-weight: 200;
 }
 
-section.gomes-section.section-1 .vcfo-button {
+section.gomes-section.vcfo-hero-section .vcfo-button {
     margin: 50px 0;
     display: flex;
     align-items: center;
@@ -222,7 +222,7 @@ section.gomes-section button.get-consultant-btn:hover {
     font-weight: 600;
 }
 
-.vcfo-experience-section {
+.vcfo-indsexp-section {
     padding: 20px;
     color: var(--text-color2) !important;
     background: url(./images/shadow-img1.webp);
@@ -231,16 +231,16 @@ section.gomes-section button.get-consultant-btn:hover {
     background-size: cover;
 }
 
-.vcfo-experience-section .info-text {
+.vcfo-indsexp-section .info-text {
     padding: 50px;
 }
 
-.vcfo-experience-section .info-text h1 {
+.vcfo-indsexp-section .info-text h1 {
     text-align: center;
     font-size: 2.3rem;
 }
 
-.vcfo-experience-section .info-text p {
+.vcfo-indsexp-section .info-text p {
     margin: 30px 0;
     text-align: center;
     font-size: 0.9rem;
@@ -248,12 +248,12 @@ section.gomes-section button.get-consultant-btn:hover {
     font-weight: 200;
 }
 
-.vcfo-experience-section .info-text-2 strong {
+.vcfo-indsexp-section .info-text-2 strong {
     font-size: 25px;
     color: var(--text-color3);
 }
 
-.vcfo-experience-section .vcfo-experience-card {
+.vcfo-indsexp-section .vcfo-indsexp-card {
     background: var(--text-color2);
     color: var(--text-color3);
     border-radius: 16px;
@@ -264,14 +264,14 @@ section.gomes-section button.get-consultant-btn:hover {
     min-height: 100%;
 }
 
-.vcfo-experience-section .vcfo-experience-card .icon-img {
+.vcfo-indsexp-section .vcfo-indsexp-card .icon-img {
     display: flex;
     align-items: center;
     justify-content: center;
     color: var(--bgcolor-lighter);
 }
 
-.vcfo-experience-section .vcfo-experience-card .icon-img img {
+.vcfo-indsexp-section .vcfo-indsexp-card .icon-img img {
     width: 100%;
     height: 100%;
     padding-top: 10px;
@@ -279,32 +279,180 @@ section.gomes-section button.get-consultant-btn:hover {
     border-radius: 20px;
 }
 
-.vcfo-experience-section .vcfo-experience-card .card-body h4 {
+.vcfo-indsexp-section .vcfo-indsexp-card .card-body h4 {
     font-size: 17px;
     font-weight: 600;
 }
 
-.vcfo-experience-section .vcfo-experience-card .card-body p {
+.vcfo-indsexp-section .vcfo-indsexp-card .card-body p {
     line-height: 1.5;
     font-size: 0.8rem;
 }
 
-.vcfo-experience-section .vcfo-experience-card .experience-button {
-    margin-bottom: 20PX;
-}
-
-
-.section-3 {
-    padding: 50px;
-    background-image: linear-gradient(125deg, var(--bgcolor), var(--bgcolor-lighter), var(--bgcolor-lighter), var(--bgcolor));
-}
-
-.section-3 .vissionaries-text h1 {
-    text-align: center;
+.vcfo-indsexp-section .vcfo-indsexp-card .indsexp-button {
     margin-bottom: 20px;
 }
 
-/* .section-3 .founder-img {
+
+.virtual-cfo {
+    background-image: linear-gradient(220deg, var(--bgcolor), var(--bgcolor-lighter), var(--bgcolor-lighter), var(--bgcolor));
+    padding: 0px;
+}
+
+.virtual-cfo .virtual-text {
+    padding: 40px;
+}
+
+.virtual-cfo .virtual-text h1 {
+    margin-bottom: 30px;
+}
+
+.virtual-cfo .virtual-text p {
+    font-size: 0.9rem;
+    line-height: 1.7;
+}
+
+.virtual-cfo .virtual-ul {
+    padding: 30px;
+}
+
+.virtual-cfo .virtual-text .virtual-ul h4 {
+    margin-bottom: 20px;
+}
+
+.virtual-cfo .virtual-text .virtual-ul li i {
+    margin-bottom: 5px;
+    line-height: 1.7;
+}
+
+.vissionaries {
+    background-image: linear-gradient(125deg, var(--bgcolor), var(--bgcolor-lighter), var(--bgcolor-lighter), var(--bgcolor));
+}
+
+.vissionaries .vissionaries-container {
+    padding: 50px;
+
+}
+
+.vissionaries .vissionaries-container .vissionaries-text h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.vissionaries .vissionaries-container .vissionaries-text p {
+    text-align: center;
+    font-size: 0.9rem;
+    line-height: 1.7;
+    font-weight: 600;
+    margin: 50px 70px;
+}
+
+.vissionaries .vissionaries-container .leader-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--bgcolor-lighter);
+    border-radius: 15px;
+}
+
+.vissionaries .vissionaries-container .leader-container .leader-heading {
+    padding: 30px;
+    width: 30%;
+    gap: 10px;
+}
+
+.vissionaries .vissionaries-container .leader-container .leader-heading h1{
+    font-size: 2rem;
+    font-weight: 800;
+    letter-spacing: 0.2rem;
+    margin: 20px 0;
+}
+
+.vissionaries .vissionaries-container .leader-container .leader-heading p{
+    font-size: 0.8rem;
+    font-weight: 600;
+    line-height: 1.5;
+    margin: 20px 0;
+}
+
+.vissionaries .leader-container .profile-card {
+    position: relative;
+    width: 20%;
+    height: 40%;
+    background: var(--bgcolor-lightest);
+    padding: 30px;
+    border-radius: 50%;
+    box-shadow: 0 0 022px var(--text-color3);
+    transition: .6s;
+}
+
+.vissionaries .leader-container .profile-card:hover {
+    border-radius: 5%;
+}
+
+.vissionaries .leader-container .profile-card .profile-img {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.vissionaries .leader-container .profile-card:hover .profile-img {
+    transform: translateY(-75%);
+}
+
+.vissionaries .leader-container .profile-card .profile-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 100%;
+    box-shadow: 0 0 022px var(--text-color3);
+    transition: .6s;
+}
+
+.vissionaries .leader-container .profile-card .profile-headings {
+    transform: translateY(-120%);
+    opacity: 0;
+    transition: .3s;
+}
+
+.vissionaries .leader-container .profile-card:hover .profile-headings{
+    opacity: 1;
+}
+
+.vissionaries .leader-container .profile-card .profile-headings h3{
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 1;
+    font-weight: 800;
+}
+
+.vissionaries .leader-container .profile-card .profile-headings h5{
+    font-size: 1rem;
+    text-align: center;
+    line-height: 1;
+    font-weight: 750;
+    margin: 10px 0;
+}
+
+.vissionaries .leader-container .profile-card .profile-headings p{
+    font-size: 0.8rem;
+    line-height: 1.3;
+    font-weight: 600;
+    margin: 2px 0 6px 0;
+}
+
+.vissionaries .leader-container .profile-card .profile-headings .profile-social-links a{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: #333;
+    margin-right: 8px;
+    font-size: 18px;
+}
+
+/* .vissionaries .founder-img {
     background: var(--text-color2);
     border-radius: 20px;
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
@@ -313,27 +461,24 @@ section.gomes-section button.get-consultant-btn:hover {
     margin-bottom: 50px;
 }
 
-.section-3 .founder-img img {
+.vissionaries .founder-img img {
     object-fit: cover;
     width: 80%;
     padding: 20px;
 } */
 
-.section-3 .founder-text,
-h3,
-h6,
-p {
+.vissionaries .founder-text, h3, h6, p {
     text-align: left;
 
 }
 
 
-.section-3 .img-wrap {
+.vissionaries .img-wrap {
     position: relative;
     display: flex;
 }
 
-.section-3 .img-wrap .founder-inner-img {
+.vissionaries .img-wrap .founder-inner-img {
     position: absolute;
     padding: 10px;
     display: block;
@@ -350,29 +495,29 @@ p {
 
 }
 
-.section-4 {
+.testimonials {
     padding: 50px;
-    background-image: linear-gradient(43deg, var(--bgcolor), var(--bgcolor-lighter), var(--bgcolor-lighter), var(--bgcolor));
+    background-image: linear-gradient(34deg, var(--bgcolor), var(--bgcolor-lighter), var(--bgcolor-lighter), var(--bgcolor));
 }
 
-.section-4 .vcfo-container {
+.testimonials .testimonials-container {
     padding: 50px;
 }
 
-.section-4 .vcfo-container h1,
+.testimonials .testimonials-container h1,
 p {}
 
-.section-4 .ratings {
+.testimonials .ratings {
     color: #FFD700;
 }
 
-.section-4 .quote {
+.testimonials .quote {
     color: var(--bgcolor2);
     width: 30%;
     margin-right: 10px;
 }
 
-.section-4 .vcfo-experience-card {
+.testimonials .testimonials-experience-card {
     padding: 0px 10px;
     width: auto;
     height: 100%;
@@ -381,24 +526,24 @@ p {}
     border-radius: 15px;
 }
 
-.section-4 .vcfo-style {
+.testimonials .testimonials-style {
     display: flex;
     justify-content: space-evenly;
 }
 
-.section-4 .vcfo-experience-card-text {
+.testimonials .testimonials-experience-card-text {
     padding: 10px;
     text-align: left;
     font-size: 15px;
 }
 
-/* .section-4 .vcfo-experience-card-image {
+/* .testimonials .testimonials-experience-card-image {
     display: flex;
     object-fit: cover;
     padding: 20px;
 }
 
-.section-4 .vcfo-experience-card-image img {
+.testimonials .testimonials-experience-card-image img {
     width: 100px;
     height: 100px;
     object-fit: cover;
@@ -407,51 +552,20 @@ p {}
     border-radius: 90px;
 } */
 
-.section-4 .vcfo-client-name {
+.testimonials .testimonials-client-name {
     padding: 20px;
-}
-
-.section-5 {
-    background-image: linear-gradient(226deg, var(--bgcolor), var(--bgcolor-lighter), var(--bgcolor-lighter), var(--bgcolor));
-    padding: 0px;
-}
-
-.section-5 .virtual-text {
-    padding: 40px;
-}
-
-.section-5 .virtual-text h1 {
-    margin-bottom: 30px;
-}
-
-.section-5 .virtual-text p {
-    font-size: 0.9rem;
-    line-height: 1.7;
-}
-
-.section-5 .virtual-ul {
-    padding: 30px;
-}
-
-.section-5 .virtual-text .virtual-ul h4 {
-    margin-bottom: 20px;
-}
-
-.section-5 .virtual-text .virtual-ul li i {
-    margin-bottom: 5px;
-    line-height: 1.7;
 }
 
 .gomes-footer {
     position: relative;
     width: 100%;
-    background-image: linear-gradient(132deg, var(--bgcolor), var(--bgcolor-lighter), var(--bgcolor-lighter), var(--bgcolor));
+    background-image: linear-gradient(135deg, var(--bgcolor), var(--bgcolor-lighter), var(--bgcolor-lighter), var(--bgcolor));
     min-height: 100px;
     padding: 12em 0;
     overflow: hidden;
 }
 
-.gomes-footer .vcfo-container {
+.gomes-footer .vcfo-footer-container {
     padding: 4em;
     background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
     backdrop-filter: blur(10px);
@@ -461,7 +575,7 @@ p {}
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
 }
 
-.gomes-footer .vcfo-container ul {
+.gomes-footer .vcfo-footer-container ul {
     list-style-type: none;
 }
 
@@ -521,31 +635,31 @@ p {}
 
 }
 
-.gomes-footer .vcfo-footer-row-1 .vcfo-experience-card {
+.gomes-footer .vcfo-footer-row-1 .vcfo-footer-card {
     display: flex;
     object-fit: cover;
 }
 
-.gomes-footer .vcfo-footer-row-1 .vcfo-experience-card img {
+.gomes-footer .vcfo-footer-row-1 .vcfo-footer-card img {
     width: 30%;
     height: 30%;
     object-fit: contain;
     border-radius: 5px;
 }
 
-.gomes-footer .vcfo-footer-row-1 .vcfo-experience-card .vcfo-img-text {
+.gomes-footer .vcfo-footer-row-1 .vcfo-footer-card .vcfo-img-text {
     margin-bottom: 30px;
     position: relative;
     padding: 0 10px;
 }
 
-.gomes-footer .vcfo-footer-row-1 .vcfo-experience-card .vcfo-img-text .vcfo-heading {
+.gomes-footer .vcfo-footer-row-1 .vcfo-footer-card .vcfo-img-text .vcfo-heading {
     font-size: 15px;
     padding: 0 10px;
     line-height: 1.4;
 }
 
-.gomes-footer .vcfo-footer-row-1 .vcfo-experience-card .vcfo-img-text .vcfo-meta {
+.gomes-footer .vcfo-footer-row-1 .vcfo-footer-card .vcfo-img-text .vcfo-meta {
     padding: 0 10px;
 }
 
@@ -591,18 +705,18 @@ p {}
         line-height: 1.7;
     }
 
-    .section-1 {
+    .vcfo-hero-section {
         padding: 0 10px 0 0;
         margin: 0;
     }
 
-    .gomes-section .section-1 h1 {
+    .gomes-section .vcfo-hero-section h1 {
         font-size: 3rem;
         font-weight: 300;
         line-height: 1.6;
     }
 
-    .section-1 .info-text p {
+    .vcfo-hero-section .info-text p {
         font-size: 13.5px;
         line-height: 1.9;
         font-weight: 300;
